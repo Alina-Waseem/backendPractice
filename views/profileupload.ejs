@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="w-full h-full min-h-screen bg-zinc-900 p-10 text-white">
+        <h1 class="text-3xl tracking-tighter mb-3">Upload Profile Pic</h1>
+        <form action="/upload" method="post" autocomplete="off" enctype="multipart/form-data">
+            <input type="file" name="image">
+            <input class="px-5 py-2 bg-blue-500 rounded-lg ml-3" type="submit" value="Upload File">
+        </form>
+    </div>
+</body>
+</html>
